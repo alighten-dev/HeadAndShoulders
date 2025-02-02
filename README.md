@@ -7,4 +7,5 @@ Rules (short trade example):
 4. Shoulder two must retrace to 30% (configurable) of the head.
 5. Enter using your preferred momemtum indicator. 
 
-![image](https://github.com/user-attachments/assets/86346e54-59e8-4519-9988-c1746d4ae863)
+![image](https://github.com/user-attachments/assets/01695e65-1eef-4e72-a7f3-48613be91a72)
+

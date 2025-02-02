@@ -170,13 +170,13 @@ namespace NinjaTrader.NinjaScript.Indicators
 			bullStep5Complete = false;
 			
 				
-			//Use these swings to temporarily calculate the Fibonacci Retracement
+			
 			predictiveHighBarsAgo = Swing2.SwingHighBar(0, 1, Bars.BarsSinceNewTradingDay);
 			predictiveLowBarsAgo = Swing2.SwingLowBar(0, 1, Bars.BarsSinceNewTradingDay);
 			latestPredictiveSwingHighBar = CurrentBar - predictiveHighBarsAgo;
 			latestPredictiveSwingLowBar = CurrentBar - predictiveLowBarsAgo;
 			
-			//Use these swings to calculate the Fibonacci Retracement
+			
 			swingHighBarsAgo = Swing1.SwingHighBar(0, 1, Bars.BarsSinceNewTradingDay);
 			swingLowBarsAgo = Swing1.SwingLowBar(0, 1, Bars.BarsSinceNewTradingDay);
 			latestSwingHighBar = CurrentBar - swingHighBarsAgo;
@@ -189,7 +189,7 @@ namespace NinjaTrader.NinjaScript.Indicators
 			precedingSwingLowBarsAgo = Swing1.SwingLowBar(0, 3, Bars.BarsSinceNewTradingDay);
 			
 			
-			if(previousSwingHighBarsAgo > -1 && previousSwingLowBarsAgo > -1)
+			if(precedingSwingHighBarsAgo > -1 && precedingSwingLowBarsAgo > -1)
 			{
 				
 				try
